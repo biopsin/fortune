@@ -1,0 +1,20 @@
+Fortune is a small game that is meant to lighten up your life.
+It can be used to display a random entry from a cookie file.
+
+There are many collections of cookie files, for example at
+
+  ftp://ftp.openbsd.org/pub/OpenBSD/src/games/fortune/datfiles/
+
+So why another fortune program?  Because the BSD one sucks.  It needs a
+separate file and a program called "strfile" to create that said file.
+Modern systems have mmap() which makes a simple fortune program almost
+trivial to write, so I did it.
+
+Comments welcome.  If anyone knows a canonical cookie repository, please
+let me know!  Maybe we should start a new collection.  Methinks the
+fortune cookie collection should be canonified and junk like duplicates
+should be weeded.
+
+Any takers?
+
+Felix von Leitner <felix-fortune@fefe.de>

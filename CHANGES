@@ -1,0 +1,20 @@
+1.2:
+  version 1.1 was lost, so I redid the changes from 1.1
+
+1.1:
+  less BSD and more POSIX.
+
+1.0:
+  removed stdio and locale crap.
+  fortune now compiles against the diet libc (http://www.fefe.de/dietlibc/)
+    yielding a 12k statically linked binary on Linux/x86!
+
+0.3 from 0.2:
+  changed fortune separator from '%' to '\n%\n' to allow for fortunes
+  with percent signs.
+
+0.2 from 0.1:
+  David Frey <dfrey@debian.org> contributed a man page and two important
+  things that I wanted but were too lazy to do myself, namely regex
+  based searching and more than one fortune file.  It looks like he also
+  made a Debian package based on fortune!  Thanks, David!
